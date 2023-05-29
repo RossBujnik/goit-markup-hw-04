@@ -57,15 +57,16 @@ a {
   font-weight: 700;
   line-height: 1, 17;
   text-decoration: none;
-  padding-right: 93px;
 }
-.menu-gaps {
-  display: inline-flex;
+.menu-logo-gaps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 46px;
   padding-right: 371px;
 }
 .contacts-gaps {
-  display: inline-flex;
+  display: flex;
   gap: 50px;
 }
 .contacts {
@@ -157,7 +158,7 @@ main-button {
 
 .lorem {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
   padding-top: 94px;
   gap: 30px;
@@ -195,7 +196,7 @@ h2 {
   display: flex;
   padding-top: 50px;
   padding-bottom: 94px;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
 }
 
@@ -332,7 +333,7 @@ img {
   padding-top: 50px;
   padding-bottom: 94px;
   list-style: none;
-  justify-content: center;
+  justify-content: space-between;
 }
 .images-portfolio-border {
   border-color: #eeeeee;
