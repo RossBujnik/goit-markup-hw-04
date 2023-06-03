@@ -71,11 +71,17 @@ a {
   color: #757575;
 }
 .contacts-svg {
-  color: #757575;
+  cursor: pointer;
+  fill: #757575;
+}
+.contacts-gaps:hover {
+  fill: #2196f3;
 }
 .contacts-gaps-icons {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  color: #757575;
 }
 .contacts-gaps-icons:hover {
   color: #2196f3;
@@ -289,6 +295,27 @@ h3 {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+}
+
+/* Nasi klienci */
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
+.clients-elements {
+  color: #afb1b8;
+  fill: currentColor;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.clients-elements:hover {
+  color: #2196f3;
+  cursor: pointer;
+  border-color: #2196f3;
 }
 
 /* Footer */
