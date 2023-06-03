@@ -70,21 +70,24 @@ a {
   gap: 50px;
   color: #757575;
 }
+.contacts-gaps:hover {
+  color: #2196f3;
+  fill: #2196f3;
+}
 .contacts-svg {
   cursor: pointer;
-  fill: #757575;
 }
-.contacts-gaps:hover {
+.contacts-svg:hover {
   fill: #2196f3;
 }
 .contacts-gaps-icons {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: #757575;
+  fill: #757575;
 }
 .contacts-gaps-icons:hover {
-  color: #2196f3;
+  fill: #2196f3;
 }
 .contacts {
   font-family: Roboto;
@@ -277,16 +280,19 @@ h3 {
   border-top-right-radius: 4px;
 }
 .social-icons {
-  background-color: #ffffff;
   display: flex;
-  justify-content: center;
-  align-items: space-around;
+  background-color: #ffffff;
+  justify-content: space-evenly;
   flex-direction: row;
   gap: 10px;
+  padding-top: 16px;
+  padding-bottom: 18px;
+}
+.social-group {
+  position: absolute;
 }
 .icons-design {
-  color: #afb1b8;
-  fill: currentColor;
+  fill: #afb1b8;
 }
 .icons-design:hover {
   color: #ffffff;
