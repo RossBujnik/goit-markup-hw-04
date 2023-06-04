@@ -109,6 +109,12 @@ a {
   overflow: hidden;
   margin: 0 auto;
   height: 600px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/main-background.jpg");
+  background-position: center;
   background-color: #2f303a;
 }
 h1 {
@@ -306,8 +312,7 @@ h3 {
   fill: #ffffff;
   background: #2196f3;
 }
-.icon-svg-design {
-}
+
 /* Nasi klienci */
 
 .clients {
@@ -360,6 +365,7 @@ h3 {
 .adress-regular {
   padding-bottom: 60px;
   padding-top: 20px;
+  padding-right: 70px;
   gap: 9px;
 }
 
@@ -380,6 +386,12 @@ h3 {
   line-height: 1, 71;
   text-decoration: none;
   padding-bottom: 9px;
+}
+.social-footer-title {
+  display: flex;
+}
+.social-footer {
+  display: block;
 }
 
 /* portfolio.html */
