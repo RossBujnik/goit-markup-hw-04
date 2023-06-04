@@ -338,7 +338,7 @@ h3 {
 
 .footer-background {
   background-color: #2f303a;
-  display: block;
+  display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   list-style: none;
@@ -387,11 +387,38 @@ h3 {
   text-decoration: none;
   padding-bottom: 9px;
 }
-.social-footer-title {
-  display: flex;
+.column-contacts {
+  padding-right: 70px;
 }
-.social-footer {
-  display: inline-flex;
+.column-social {
+  display: flex;
+  align-items: flex-start;
+  padding-right: 863px;
+}
+.column-social-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.footer-icons-background {
+  background-color: #2f303a;
+}
+.footer-icons-design {
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  color: #ffffff;
+  fill: currentColor;
+  border-radius: 50%;
+  border-color: #ffffff 10%;
 }
 
 /* portfolio.html */
