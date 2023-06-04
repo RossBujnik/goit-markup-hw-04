@@ -336,12 +336,10 @@ h3 {
 /* Footer */
 
 .footer-background {
-  background-color: #2f303a;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
   list-style: none;
-  padding-top: 60px;
+  overflow: hidden;
+  background-color: #2f303a;
 }
 .brand-name03 {
   font-family: Raleway;
@@ -364,7 +362,7 @@ h3 {
 .adress-regular {
   padding-bottom: 60px;
   padding-top: 20px;
-
+  padding-right: 70px;
   gap: 9px;
 }
 
@@ -386,15 +384,41 @@ h3 {
   text-decoration: none;
   padding-bottom: 9px;
 }
-.column-contacts {
+.footer-section-1 {
+  float: left;
   padding-right: 70px;
+  padding-top: 60px;
 }
-.column-social {
+.footer-section-2 {
+  float: left;
+  padding-top: 72px;
+}
+.social-icons-footer {
   display: flex;
-  align-items: flex-start;
-  padding-right: 863px;
+  background-color: #2f303a;
+  justify-content: center;
+  gap: 10px;
 }
-.column-social-title {
+.icons-design-footer {
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  color: #ffffff;
+  fill: currentColor;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.icons-design-footer:hover {
+  color: #ffffff;
+  background: #2196f3;
+}
+.footer-social {
+  margin: 2px;
+}
+.social-title {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -403,20 +427,7 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
-.footer-icons-background {
-  background-color: #2f303a;
-}
-.footer-icons-design {
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  padding: 10px;
-  color: #ffffff;
-  fill: currentColor;
-  border-radius: 50%;
-  border-color: #ffffff 10%;
+  padding-bottom: 10px;
 }
 
 /* portfolio.html */
