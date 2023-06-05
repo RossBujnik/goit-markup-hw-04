@@ -38,6 +38,9 @@
   line-height: 1.17;
   text-decoration: none;
 }
+.menu:hover {
+  color: #2196f3;
+}
 a {
   text-decoration: none;
   font-style: normal;
@@ -69,26 +72,22 @@ a {
 .contacts-gaps {
   display: flex;
   gap: 50px;
-  color: #757575;
-}
-.contacts-gaps:hover {
-  color: #2196f3;
-  fill: #2196f3;
-}
-.contacts-svg {
   cursor: pointer;
 }
-
 .contacts-gaps-icons {
   display: flex;
   flex-direction: row;
   align-items: center;
+  color: #757575;
   fill: #757575;
 }
 .contacts-gaps-icons:hover {
+  color: #2196f3;
   fill: #2196f3;
 }
-
+.contacts:hover {
+  color: #2196f3;
+}
 .contacts {
   font-family: Roboto;
   color: #757575;
@@ -97,9 +96,6 @@ a {
   line-height: 1.17;
   text-decoration: none;
   padding-left: 10px;
-}
-.contacts:hover {
-  color: #2196f3;
 }
 .main_part {
   flex-direction: column;
@@ -473,7 +469,6 @@ img {
   cursor: pointer;
 }
 .images-portfolio-hover:hover {
-  border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
